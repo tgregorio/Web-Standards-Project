@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #229fff;
+}
+
+#wrapper {
+	width: 790px;
+	margin: 0 auto;
+}
+
+#main {
+	background: #e17b04;
+	box-shadow: 0px 0px 4px 1px #000;
+	-moz-box-shadow: 0px 0px 4px 1px #000;
+	-webkit-box-shadow: 0px 0px 4px 1px #000;
+	margin-bottom: 2.5316455696203%; /*** 20px ***/
+	width: 100%;
+	padding: 1.8987341772152% 0%; /*** 15px ***/
+}
+
+a:link,a:visited {
+	color: #FFF;
+}
+
+h1 {
+	color: white;
+	font: normal small-caps bold 1.5em/1 helvetica, arial, sans-serif; /*** 24px ***/
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: #000 2px 2px 1px;
+}
+
+h2 {
+	color: white;
+	font: normal small-caps bold 1.375em/1 helvetica neue, arial, sans-serif; /*** 22px ***/
+	padding-left: 3.9240506329114%; /*** 31px ***/
+	text-decoration: underline;
+}
+
+p {
+	color: white;
+	font: normal 0.875em/1.5 arial, verdana, sans-serif; /*** 14px ***/
+	padding: 0% 4.0506329113924%; /*** 32px ***/
+	text-indent: 2em; /*** 32px + padding ***/
+}
+
+
