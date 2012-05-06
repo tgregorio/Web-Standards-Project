@@ -1,0 +1,42 @@
+/************ Color Palettes ************
+
+**Mood Board 1**
+
+	Option 1: 
+		
+	Option 2:
+	
+**Mood Board 2**
+
+	Option 1:
+		Brown (#AB8C53)
+		Stone (#E8CC71)
+		White (#FFFDF4)
+		Light Blue (#59969D)
+		Dark Blue (#243244)
+		
+
+	Option 2:
+		Brown (#73643D)
+		Faded Brown (#BFB9A7)
+		White (#)
+		Blue (#)
+		Grey (#)
+*/
+
+
+body {
+	background-color: #243244;
+	margin: 0 auto;
+	width: 800px;
+}
+
+h1 {
+	color: #59969D;
+	font: normal bold 1.625em/1 didot, georgia, sans-serif; /*** 26px ***/
+	text-align: center;
+}
+
+wrapper {
+	width: 100%;
+}
