@@ -115,7 +115,6 @@ header img {
 /*********** Main Nav ************/
 
 nav ul {
-	background: blue;
 	border-bottom: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
@@ -127,10 +126,11 @@ nav ul {
 }
 
 nav ul li {
-	background: red;
+	background: #59969D;
 	border-right: 2px solid #000;
+	color: #FFFDF4;
 	float: left;
-	font: normal 1.125em/1 didot, menlo, serif; /*** 18px ***/
+	font: normal bold 1.125em/1 didot, menlo, serif; /*** 18px ***/
 	line-height: 50px;
 	text-align: center;
 	width: 189.6px;
@@ -153,7 +153,7 @@ nav ul li {
 /********* LINKS **********/
 
 li a {
-	color: black;
+	color: #FFFDF4;
 	text-decoration: none;
 }
 
@@ -163,7 +163,7 @@ aside {
 }
 
 #maincontent {
-	background: red;
+	background: #4F5A75;
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 55px;
@@ -173,11 +173,14 @@ aside {
 
 #maincontent h2 {
 	border-bottom: 1px solid #000;
+	color: #E8CC71;
 	padding: 0px 30px 15px 0px;
+	text-shadow: 1px 1px 4px #FFFDF4;
 	width: 430px;
 }
 
-p, aside {
+#maincontent p, aside {
+	color: #E8CC71;
 	font: normal 0.875em/1.4 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
 }
@@ -225,6 +228,7 @@ p, aside {
 
 #rightcolumn section p {
 	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
+	margin-top: 15px;
 }
 
 /********** FOOTER ***********/
@@ -233,7 +237,7 @@ footer {
 	background: orange;
 	clear: both;
 	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
-	height: 60px;
-	margin-top: 50px;
-	padding-left: 55px;
+	margin: 0 auto;
+	padding: 30px 0px 30px 81px;
+
 }
