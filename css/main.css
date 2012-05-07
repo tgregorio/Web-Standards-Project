@@ -43,7 +43,8 @@ body {
 }
 
 #wrapper {
-	margin: 0 auto;
+	background: blue;
+	margin: 15px auto;
 	width: 990px;
 }
 
@@ -51,16 +52,28 @@ h1 {
 	background: purple;
 	color: #08C1BA;
 	font: normal bold 1.625em/1 didot, menlo, sans-serif; /*** 26px ***/
+	float: left;
 	margin-top: 25px;
 }
 
+.header_photos {
+	background: green;
+	height: 100%;
+	width: 100%;
+}
+
+header img {
+	float: right;
+	margin: 15px 15px 0px 0px;
+}
+
 nav ul {
+	clear: both;
 	list-style-type: none;
 	background: blue;
 	border-bottom: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
-	margin-top: 50px;
 	height: 50px;
 	width: 100%;
 }
@@ -75,10 +88,30 @@ nav ul li {
 	width: 196px;
 }
 
+/********* LINKS **********/
+
 li a {
 	color: black;
 	text-decoration: none;
 }
+
+/********* MAIN CONTENT ********/
+#maincontent {
+	background: red;
+	clear:both;
+	float: left;
+	margin: 15px 0px 0px 70px;
+	width: 510px
+}
+
+#rightcolumn {
+	background: green;
+	float: right;
+	margin: 15px 70px 0px 0px;
+	width: 295px;
+}
+
+/********** FOOTER ***********/
 
 footer {
 	background: orange;
