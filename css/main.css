@@ -86,7 +86,7 @@ body {
 
 h1 {
 	color: #59969D;
-	font: normal bold 1.625em/1 didot, menlo, sans-serif; /*** 26px ***/
+	font: normal bold 1.625em/1 didot, menlo, serif; /*** 26px ***/
 	float: left;
 	margin-top: 25px;
 	padding: 35px 0px 0px 70px;
@@ -130,7 +130,7 @@ nav ul li {
 	background: red;
 	border-right: 2px solid #000;
 	float: left;
-	font: normal 1.125em/1 didot, menlo, sans-serif; /*** 18px ***/
+	font: normal 1.125em/1 didot, menlo, serif; /*** 18px ***/
 	line-height: 50px;
 	text-align: center;
 	width: 189.6px;
@@ -141,7 +141,7 @@ nav ul li {
 	clear: both;
 	float: left;
 	height: 100px;
-	margin: 0px 0px 0px 70px;
+	margin: 0px 0px 0px 55px;
 	padding: 15px 0px 0px 30px;
 	width: 820px;
 }
@@ -166,9 +166,9 @@ aside {
 	background: red;
 	clear:both;
 	float: left;
-	margin: 15px 0px 15px 70px;
+	margin: 15px 0px 15px 55px;
 	padding: 15px 15px 15px 30px;
-	width: 465px
+	width: 479px
 }
 
 #maincontent h2 {
@@ -182,11 +182,49 @@ p, aside {
 	margin-top: 15px;
 }
 
+/******** Right Column ********/
+
 #rightcolumn {
 	background: green;
 	float: right;
-	margin: 15px 70px 15px 0px;
-	width: 295px;
+	height: 375px;
+	margin: 15px 55px 15px 0px;
+	width: 310px;
+}
+
+#rightcolumn ul {
+	margin-top: 15px;
+}
+
+#rightcolumn ul li {
+	background: black;
+	border: 1px solid #000;
+	color: white;
+	font: normal 1.125em/1 verdana, arial, sans-serif;
+	margin: 0px 0px 15px 26px;
+	padding: 5px 0px 8px 0px;
+	text-align: center;
+	width: 240px;
+}
+
+#rightcolumn h2 {
+	border-bottom: 1px solid #000;
+	font: normal bold 1.5em/1 didot, menlo, serif;
+	margin-left: 27.5px;
+	padding: 14px 0px 14px 0px;
+	text-align: center;
+	width: 240px;
+}
+
+#rightcolumn section {
+	border-bottom: 1px solid #000;
+	margin: 0px 0px 0px 27.5px;
+	padding-bottom: 15px;
+	width: 240px;
+}
+
+#rightcolumn section p {
+	font: normal 0.875em/1 verdana, arial, sans-serif;
 }
 
 /********** FOOTER ***********/
