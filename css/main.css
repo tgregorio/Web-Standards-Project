@@ -45,7 +45,7 @@ body {
 #wrapper {
 	background: blue;
 	margin: 15px auto;
-	width: 990px;
+	width: 960px;
 }
 
 h1 {
@@ -69,11 +69,13 @@ header img {
 
 nav ul {
 	clear: both;
+	float: left;
 	list-style-type: none;
 	background: blue;
 	border-bottom: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
+	margin-top: 50px;
 	height: 50px;
 	width: 100%;
 }
@@ -85,7 +87,16 @@ nav ul li {
 	font: normal 1.125em/1 didot, menlo, sans-serif; /*** 18px ***/
 	line-height: 50px;
 	text-align: center;
-	width: 196px;
+	width: 190px;
+}
+
+#welcome {
+	background: white;
+	clear: both;
+	float: left;
+	height: 100px;
+	margin: 15px 0px 0px 70px;
+	width: 820px;
 }
 
 /********* LINKS **********/
@@ -100,14 +111,14 @@ li a {
 	background: red;
 	clear:both;
 	float: left;
-	margin: 15px 0px 0px 70px;
+	margin: 15px 0px 15px 70px;
 	width: 510px
 }
 
 #rightcolumn {
 	background: green;
 	float: right;
-	margin: 15px 70px 0px 0px;
+	margin: 15px 70px 15px 0px;
 	width: 295px;
 }
 
@@ -116,5 +127,6 @@ li a {
 footer {
 	background: orange;
 	clear: both;
+	height: 60px;
 	margin-top: 50px;
 }
