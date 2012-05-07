@@ -115,15 +115,14 @@ header img {
 /*********** Main Nav ************/
 
 nav ul {
-	clear: both;
-	float: left;
-	list-style-type: none;
 	background: blue;
 	border-bottom: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
-	margin: 15px 0px 15px 0px;
+	clear: both;
+	float: left;
 	height: 50px;
+	margin: 15px 0px 15px 0px;
 	width: 958px;
 }
 
@@ -159,12 +158,28 @@ li a {
 }
 
 /********* MAIN CONTENT ********/
+aside {
+	text-align: right;
+}
+
 #maincontent {
 	background: red;
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 70px;
-	width: 510px
+	padding: 15px 15px 15px 30px;
+	width: 465px
+}
+
+#maincontent h2 {
+	border-bottom: 1px solid #000;
+	padding: 0px 30px 15px 0px;
+	width: 430px;
+}
+
+p, aside {
+	font: normal 0.875em/1.4 verdana, arial, sans-serif;
+	margin-top: 15px;
 }
 
 #rightcolumn {
