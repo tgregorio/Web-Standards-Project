@@ -1,3 +1,39 @@
+/************ Color Palettes (Left to Right / Top to Bottom) ************
+
+***** Mood Board 1 *****
+
+	Option 1: 
+		Orange (#EF7C00)
+		Brown/Orange (#A35100)
+		Light Orange (#FFA63A)
+		Light Blue (#08C1BA)
+		Lighter Blue (#A6EFE4)
+		
+	Option 2:
+		Orange: (#FFAA00)
+		Yellow/Orange: (#FFC128)
+		Tan: (#FFC579)
+		Light Red: (#FF7135)
+		Red: (#E04C18)
+			
+***** Mood Board 2 *****
+
+	Option 1:
+		Brown (#AB8C53)
+		Stone (#E8CC71)
+		White (#FFFDF4)
+		Light Blue (#59969D)
+		Dark Blue (#243244)
+		
+
+	Option 2:
+		Brown (#73643D)
+		Faded Brown (#BFB9A7)
+		White (#FFFCF5)
+		Blue (#4F5A75)
+		Grey (#BFBFBF)
+*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,17 +79,26 @@ body {
 }
 
 #wrapper {
-	background: blue;
+	background: #243244;
 	margin: 15px auto;
 	width: 960px;
 }
 
 h1 {
-	background: purple;
-	color: #08C1BA;
+	color: #59969D;
 	font: normal bold 1.625em/1 didot, menlo, sans-serif; /*** 26px ***/
 	float: left;
 	margin-top: 25px;
+	padding: 35px 0px 0px 70px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+h2 {
+	font: normal bold 1.25em/1 georgia, verdana, sans-serif; /*** 20px ***/
+}
+
+h3 {
+	font: normal 1em/1 georgia, verdana, sans-serif; /*** 16px ***/
 }
 
 .header_photos {
@@ -67,6 +112,8 @@ header img {
 	margin: 15px 15px 0px 0px;
 }
 
+/*********** Main Nav ************/
+
 nav ul {
 	clear: both;
 	float: left;
@@ -75,9 +122,9 @@ nav ul {
 	border-bottom: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
-	margin-top: 50px;
+	margin: 15px 0px 15px 0px;
 	height: 50px;
-	width: 100%;
+	width: 958px;
 }
 
 nav ul li {
@@ -87,7 +134,7 @@ nav ul li {
 	font: normal 1.125em/1 didot, menlo, sans-serif; /*** 18px ***/
 	line-height: 50px;
 	text-align: center;
-	width: 190px;
+	width: 189.6px;
 }
 
 #welcome {
@@ -95,8 +142,13 @@ nav ul li {
 	clear: both;
 	float: left;
 	height: 100px;
-	margin: 15px 0px 0px 70px;
+	margin: 0px 0px 0px 70px;
+	padding: 15px 0px 0px 30px;
 	width: 820px;
+}
+
+#welcome h3 {
+	margin-top: 12px;
 }
 
 /********* LINKS **********/
