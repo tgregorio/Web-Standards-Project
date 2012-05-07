@@ -188,7 +188,7 @@ aside {
 /******** Right Column ********/
 
 #rightcolumn {
-	background: green;
+	background: #507276;
 	float: right;
 	height: 375px;
 	margin: 15px 55px 15px 0px;
@@ -212,10 +212,12 @@ aside {
 
 #rightcolumn h2 {
 	border-bottom: 1px solid #000;
+	color: #E8CC71; 
 	font: normal bold 1.5em/1 didot, menlo, serif; /**** 24px ****/
 	margin-left: 27.5px;
 	padding: 14px 0px 14px 0px;
 	text-align: center;
+	text-shadow: -2px 0px 12px #FFFDF4;
 	width: 240px;
 }
 
@@ -227,6 +229,7 @@ aside {
 }
 
 #rightcolumn section p {
+	color: #E8CC71;
 	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
 }
