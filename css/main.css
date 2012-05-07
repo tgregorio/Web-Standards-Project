@@ -75,6 +75,7 @@ q:before, q:after {
 /**************** End of Reset *************/
 
 body {
+	background: #0c1a2c;
 	margin: 0 auto;
 }
 
@@ -85,7 +86,7 @@ body {
 }
 
 h1 {
-	color: #59969D;
+	color: #59969d;
 	font: normal bold 1.625em/1 didot, colona mt, menlo, serif; /*** 26px ***/
 	float: left;
 	margin-top: 25px;
@@ -126,9 +127,9 @@ nav ul {
 }
 
 nav ul li {
-	background: #59969D;
+	background: #59969d;
 	border-right: 2px solid #000;
-	color: #FFFDF4;
+	color: #fffdf4;
 	float: left;
 	font: normal bold 1.125em/1 didot, colona mt, menlo, serif; /*** 18px ***/
 	line-height: 50px;
@@ -163,7 +164,7 @@ aside {
 }
 
 #maincontent {
-	background: #4F5A75;
+	background: #4F5a75;
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 55px;
@@ -175,7 +176,7 @@ aside {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
 	padding: 0px 30px 15px 0px;
-	text-shadow: -2px 0px 10px #FFFDF4;
+	text-shadow: -2px 0px 10px #fffdf4;
 	width: 430px;
 }
 
@@ -217,7 +218,7 @@ aside {
 	margin-left: 27.5px;
 	padding: 14px 0px 14px 0px;
 	text-align: center;
-	text-shadow: -2px 0px 12px #FFFDF4;
+	text-shadow: -2px 0px 12px #fffdf4;
 	width: 240px;
 }
 
@@ -229,7 +230,7 @@ aside {
 }
 
 #rightcolumn section p {
-	color: #E8CC71;
+	color: #e8cc71;
 	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
 }
