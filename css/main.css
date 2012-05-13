@@ -235,6 +235,23 @@ aside {
 	margin-top: 15px;
 }
 
+/********** FORM ************/
+
+#maincontent form p {
+	margin: 4px 0 4px 0;
+}
+
+#maincontent form legend {
+	color: white;
+	font-style: italic;
+	margin-bottom: 6px;
+}
+
+#maincontent form label {
+	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 24px ****/
+	margin-right: 8px;
+}
+
 /********** FOOTER ***********/
 
 footer {

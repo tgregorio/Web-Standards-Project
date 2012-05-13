@@ -24,27 +24,42 @@
 		</ul>
 		</nav>
 		</header>
-	<div id="welcome">
-	<h2>Welcome to Spring Lake Elementary</h2>
-	<h3>"A Commitment to Excellence"</h3>
-	</div>
 	<div id="maincontent">
-		<h2>A Letter from Our Principal</h2>
-			<p>Spring Lake Elementary is uniquely composed of over 700 students 
-			representing 36 countries. We are proud of the richness and distinctness of 
-			our community's many cultures and demographics! Our lives are so much richer 
-			and fuller when we appreciate and value other people, even those who are very 
-			different from us in culture or race.</p>
+		<form method="get" action="fieldset.html">
+			<fieldset>
+				<legend>*All Fields are Required</legend>
+				<p>	<label for="fullname">Full Name:</label> </p>
+				<p>	<input type="text" name="firstname" id="firstname" /> </p>
+				
+				<p>	<label for="fullname">Last Name:</label> </p>
+				<p>	<input type="text" name="lastname" id="lastname" /> </p>
+				
+				<p>	<label for="email">Email Address:</label> </p>
+				<p>	<input type="text" name="email" id="email" /> </p>
+				
+				<p>	<label for="phone">Phone Number (ex: 555-555-5555):</label> </p>
+				<p>	<input type="text" id="phone" name="phone" value="" size="15"
+					maxlength="12" /> </p>
+			</fieldset>
+		</form>
 			
-			<p>Spring Lake Elementary is a great place to be! Our students are our number 
-			one priority and our staff is dedicated and hard working. We look forward to
-			a great year!</p>
-			
-			<p>Go Manatees!</p>
-			
-			<aside>Sincerely,</aside>
-			<aside>Alex Agosto, Principal</aside>
-
+		<form method="get" action="dropdown.html">
+				<p>
+					<label for="role">Select the department you wish to contact:</label>
+					<select name="role" id="role">
+						<option>Principal's Office</option>
+						<option>Guidance Office</option>
+						<option>Nurse's Office</option>
+						<option>Other</option>
+					</select>
+				</p>
+		</form>
+		
+		<form method="get" action="textarea.html">
+			<p><label for="hobbies">Type your message in the box below :</label></p>
+			<p><textarea name="hobbies" rows="7" cols="40"></textarea></p>
+			<input type="submit" value="Submit" />
+		</form>
 	</div>
 	<div id="rightcolumn">
 		<h2>Quick Links</h2>
