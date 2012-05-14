@@ -168,7 +168,7 @@ aside {
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 55px;
-	padding: 15px 15px 15px 30px;
+	padding: 15px 15px 0px 30px;
 	width: 479px
 }
 
@@ -184,6 +184,13 @@ aside {
 	color: #E8CC71;
 	font: normal 0.875em/1.4 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
+}
+
+#maincontent .section_end {
+	border-bottom: 1px solid #000;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	width: 459px;
 }
 
 /******** Right Column ********/
