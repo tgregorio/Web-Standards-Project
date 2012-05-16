@@ -197,7 +197,7 @@ article .signature {
 
 /******** Right Column ********/
 
-#rightcolumn {
+aside {
 	background: #507276;
 	float: right;
 	height: 380px;
@@ -205,7 +205,7 @@ article .signature {
 	width: 310px;
 }
 
-#rightcolumn h2 {
+aside h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71; 
 	font: normal bold 1.5em/1 didot, menlo, colona mt, serif; /**** 24px ****/
@@ -216,11 +216,11 @@ article .signature {
 	width: 240px;
 }
 
-#rightcolumn ul {
+aside ul {
 	margin-top: 15px;
 }
 
-#rightcolumn ul li {
+aside ul li {
 	background: #243244;
 	border: 1px solid #000;
 	color: white;
@@ -231,14 +231,14 @@ article .signature {
 	width: 240px;
 }
 
-#rightcolumn section {
+aside section {
 	border-bottom: 1px solid #000;
 	margin: 0px 0px 0px 27.5px;
 	padding-bottom: 15px;
 	width: 240px;
 }
 
-#rightcolumn section p {
+aside section p {
 	color: #e8cc71;
 	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
@@ -260,6 +260,12 @@ article form p {
 article form label {
 	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 24px ****/
 	margin-right: 8px;
+}
+
+/********** MAP *************/
+
+iframe {
+	margin-left: 20px;
 }
 
 /********** FOOTER ***********/
