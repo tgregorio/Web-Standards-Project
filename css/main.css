@@ -169,13 +169,14 @@ article {
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 55px;
-	padding: 15px 15px 0px 30px;
+	padding: 0px 15px 0px 30px;
 	width: 479px
 }
 
 article h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
+	margin-top: 20px;
 	padding: 0px 30px 15px 0px;
 	text-shadow: -2px 0px 10px #fffdf4;
 	width: 430px;
@@ -199,9 +200,20 @@ article .section_end {
 #rightcolumn {
 	background: #507276;
 	float: right;
-	height: 375px;
+	height: 380px;
 	margin: 15px 55px 15px 0px;
 	width: 310px;
+}
+
+#rightcolumn h2 {
+	border-bottom: 1px solid #000;
+	color: #E8CC71; 
+	font: normal bold 1.5em/1 didot, menlo, colona mt, serif; /**** 24px ****/
+	margin-left: 27.5px;
+	padding: 17px 0px 14px 0px;
+	text-align: center;
+	text-shadow: -2px 0px 12px #fffdf4;
+	width: 240px;
 }
 
 #rightcolumn ul {
@@ -216,17 +228,6 @@ article .section_end {
 	margin: 0px 0px 15px 26px;
 	padding: 5px 0px 8px 0px;
 	text-align: center;
-	width: 240px;
-}
-
-#rightcolumn h2 {
-	border-bottom: 1px solid #000;
-	color: #E8CC71; 
-	font: normal bold 1.5em/1 didot, menlo, colona mt, serif; /**** 24px ****/
-	margin-left: 27.5px;
-	padding: 14px 0px 14px 0px;
-	text-align: center;
-	text-shadow: -2px 0px 12px #fffdf4;
 	width: 240px;
 }
 
@@ -245,14 +246,15 @@ article .section_end {
 
 /********** FORM ************/
 
-article form p {
-	margin: 4px 0 4px 0;
-}
-
 article form legend {
 	color: white;
 	font-style: italic;
-	margin-bottom: 6px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+article form p {
+	margin: 4px 0 4px 0;
 }
 
 article form label {
