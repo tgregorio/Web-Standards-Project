@@ -159,11 +159,6 @@ nav li a {
 }
 
 /********* MAIN CONTENT ********/
-aside {
-	margin-bottom: 14.2px;
-	text-align: right;
-}
-
 article {
 	background: #4F5a75;
 	clear:both;
@@ -193,6 +188,11 @@ article .section_end {
 	margin-bottom: 15px;
 	padding-bottom: 15px;
 	width: 459px;
+}
+
+article .signature {
+	margin-bottom: 14.2px;
+	text-align: right;
 }
 
 /******** Right Column ********/
