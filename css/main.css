@@ -164,7 +164,7 @@ aside {
 	text-align: right;
 }
 
-#maincontent {
+article {
 	background: #4F5a75;
 	clear:both;
 	float: left;
@@ -173,7 +173,7 @@ aside {
 	width: 479px
 }
 
-#maincontent h2 {
+article h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
 	padding: 0px 30px 15px 0px;
@@ -181,13 +181,13 @@ aside {
 	width: 430px;
 }
 
-#maincontent p, aside {
+article p, aside {
 	color: #E8CC71;
 	font: normal 0.875em/1.4 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
 }
 
-#maincontent .section_end {
+article .section_end {
 	border-bottom: 1px solid #000;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
@@ -245,17 +245,17 @@ aside {
 
 /********** FORM ************/
 
-#maincontent form p {
+article form p {
 	margin: 4px 0 4px 0;
 }
 
-#maincontent form legend {
+article form legend {
 	color: white;
 	font-style: italic;
 	margin-bottom: 6px;
 }
 
-#maincontent form label {
+article form label {
 	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 24px ****/
 	margin-right: 8px;
 }
