@@ -164,7 +164,7 @@ article {
 	clear:both;
 	float: left;
 	margin: 15px 0px 15px 55px;
-	padding: 0px 15px 0px 30px;
+	padding: 0px 15px 15px 30px;
 	width: 479px
 }
 
@@ -191,7 +191,6 @@ article .section_end {
 }
 
 article .signature {
-	margin-bottom: 14.2px;
 	text-align: right;
 }
 
@@ -254,7 +253,7 @@ article form legend {
 }
 
 article form p {
-	margin: 4px 0 4px 0;
+	margin: 0px 0 6px 0;
 }
 
 article form label {
@@ -262,6 +261,9 @@ article form label {
 	margin-right: 8px;
 }
 
+article form em {
+	font: normal 0.625em/1 verdana, arial, sans-serif; /**** 10px ****/
+}
 /********** MAP *************/
 
 iframe {
