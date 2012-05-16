@@ -153,7 +153,7 @@ nav ul li {
 
 /********* LINKS **********/
 
-li a {
+nav li a {
 	color: #FFFDF4;
 	text-decoration: none;
 }
@@ -209,7 +209,7 @@ article .section_end {
 }
 
 #rightcolumn ul li {
-	background: black;
+	background: #243244;
 	border: 1px solid #000;
 	color: white;
 	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 18px ****/
