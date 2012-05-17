@@ -89,7 +89,7 @@ h1 {
 	color: #59969d;
 	font: normal bold 1.625em/1 didot, colona mt, menlo, serif; /*** 26px ***/
 	float: left;
-	margin-top: 25px;
+	margin: 25px 58px 0 0;
 	padding: 35px 0px 0px 70px;
 	text-shadow: 2px 2px 2px #000;
 }
@@ -102,14 +102,8 @@ h3 {
 	font: normal 1em/1 georgia, verdana, sans-serif; /*** 16px ***/
 }
 
-.header_photos {
-	background: green;
-	height: 100%;
-	width: 100%;
-}
-
 header img {
-	float: right;
+	float: left;
 	margin: 15px 15px 0px 0px;
 }
 
@@ -172,9 +166,10 @@ article h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
 	margin-top: 20px;
-	padding: 0px 30px 15px 0px;
+	padding: 0px 0px 15px 0px;
+	text-align: center;
 	text-shadow: -2px 0px 10px #fffdf4;
-	width: 430px;
+	width: 479px;
 }
 
 article p, aside {
@@ -191,6 +186,7 @@ article .section_end {
 }
 
 article .signature {
+	font-style: italic;
 	text-align: right;
 }
 
