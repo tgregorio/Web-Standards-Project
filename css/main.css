@@ -272,10 +272,6 @@ aside ul li a:hover {
 	border: clear;
 }
 
-aside section a {
-	color: #e8cc71;
-}
-
 aside section {
 	border-bottom: 1px solid #000;
 	margin: 0px 0px 0px 27.5px;
@@ -283,9 +279,14 @@ aside section {
 	width: 240px;
 }
 
+aside section a {
+	color: #e8cc71;
+}
+
 aside section p {
 	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
 	margin-top: 15px;
+	text-align: center;
 }
 
 /********** FORM ************/
