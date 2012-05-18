@@ -313,7 +313,13 @@ article form em {
 /********** MAP *************/
 
 iframe {
-	margin-left: 20px;
+	margin-left: 27.5px;
+}
+
+aside p {
+	font: normal 0.75em/1 verdana, arial, sans-serif;
+	margin: 12px 14px 14px 14px;
+	line-height: 1.2;
 }
 
 /********** FOOTER ***********/
