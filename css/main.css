@@ -75,12 +75,12 @@ q:before, q:after {
 /**************** End of Reset *************/
 
 body {
-	background: #9B5100;
+	background: url(../images/bg_texture.png);/*#9B5100;*/
 	margin: 0 auto;
 }
 
 #wrapper {
-	background: #EF7C00;
+	background: rgba(239,144,0,0.75);/*#EF7C00;*/
 	border: 3px solid #b3732d;
 	margin: 15px auto;
 	width: 960px;
