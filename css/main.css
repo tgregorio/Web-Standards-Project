@@ -89,12 +89,14 @@ body {
 /******* Font Treatments *******/
 
 h1 {
+	background: url(../images/header/logo.png) no-repeat 0px 12px;
 	color: #E8CC71;
-	font: normal bold 1.625em/1 didot, 'colona mt', menlo, serif; /*** 26px ***/
+	font: normal bold 1.25em/1 didot, 'colona mt', menlo, serif; /*** 23px ***/
 	float: left;
-	margin: 25px 55px 0 0;
-	padding: 35px 0px 0px 70px;
-	text-shadow: 2px 0px 1px #000;
+	height: 70px;
+	margin: 15px 35px 0 55px;
+	padding: 50px 0 0 125px;
+	text-shadow: 3px 0px 2px #000;
 }
 
 h2 {
@@ -150,7 +152,7 @@ nav ul li {
 /********* Welcome Graphic ********/
 
 #welcome {
-	background: -moz-linear-gradient(left,  rgba(26,40,76,1) 0%, rgba(79,90,117,1) 24%, rgba(79,90,117,1) 50%, rgba(129,141,172,1) 70%, rgba(141,154,186,0.88) 75%, rgba(140,158,192,0.8) 78%, rgba(138,172,211,0.49) 88%, rgba(135,188,234,0) 100%), url(../images/school.jpg); /* FF3.6+ */
+	background: -moz-linear-gradient(left,  rgba(26,40,76,1) 0%, rgba(79,90,117,1) 24%, rgba(79,90,117,1) 50%, rgba(129,141,172,0.95) 70%, rgba(141,154,186,0.88) 75%, rgba(140,158,192,0.8) 78%, rgba(138,172,211,0.49) 88%, rgba(135,188,234,0) 100%), url(../images/school.jpg); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(26,40,76,1)), color-stop(24%,rgba(79,90,117,1)), color-stop(50%,rgba(79,90,117,1)), color-stop(70%,rgba(129,141,172,1)), color-stop(75%,rgba(141,154,186,0.88)), color-stop(78%,rgba(140,158,192,0.8)), color-stop(88%,rgba(138,172,211,0.49)), color-stop(100%,rgba(135,188,234,0))), url(../images/school.jpg); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(left,  rgba(26,40,76,1) 0%,rgba(79,90,117,1) 24%,rgba(79,90,117,1) 50%,rgba(129,141,172,1) 70%,rgba(141,154,186,0.88) 75%,rgba(140,158,192,0.8) 78%,rgba(138,172,211,0.49) 88%,rgba(135,188,234,0) 100%), url(../images/school.jpg); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(left,  rgba(26,40,76,1) 0%,rgba(79,90,117,1) 24%,rgba(79,90,117,1) 50%,rgba(129,141,172,1) 70%,rgba(141,154,186,0.88) 75%,rgba(140,158,192,0.8) 78%,rgba(138,172,211,0.49) 88%,rgba(135,188,234,0) 100%), url(../images/school.jpg); /* Opera 11.10+ */
