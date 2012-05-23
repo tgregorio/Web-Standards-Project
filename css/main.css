@@ -100,6 +100,7 @@ h1 {
 }
 
 h2 {
+	clear: both;
 	font: normal bold 1.25em/1 georgia, verdana, sans-serif; /*** 20px ***/
 }
 
@@ -443,6 +444,48 @@ footer {
 }
 
 /******* Departments *******/
+
+#links_prek-2 {
+	float: left;
+	margin: 15px 17px 3px 0;
+	text-align: center;
+	width: 229px;
+}
+
+#links_prek-2 li {
+	background: #FA8E3C;
+	border: 1px solid #FFF;
+	display: block;
+	font: normal 1.125em/1 verdana, arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+#links_3-5 {
+	float: left;
+	margin: 15px 0 3px 0;
+	text-align: center;
+	width: 229px;
+}
+
+#links_3-5 li {
+	background: #F2822C;
+	border: 1px solid #FFF;
+	display: block;
+	font: normal 1.125em/1 verdana, arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+#links_prek-2 li a, #links_3-5 li a {
+	color: white;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+#links_prek-2 li a:hover, #links_3-5 li a:hover {
+	background: #4F5A75;
+}
 
 table {
 	border: 1px solid #000;
