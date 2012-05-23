@@ -104,7 +104,9 @@ h2 {
 }
 
 h3 {
+	color: green;
 	font: normal 1em/1 georgia, verdana, sans-serif; /*** 16px ***/
+	margin-top: 18px;
 }
 
 /******* Header images *******/
@@ -290,7 +292,7 @@ aside section p {
 	text-align: center;
 }
 
-/********** FORM ************/
+/********** CONTACT FORM ************/
 
 article form legend {
 	color: white;
@@ -433,4 +435,22 @@ footer {
 #weeks_events .stripe2 {
 	background: #06918C;
 	color: #F5FDFC;
+}
+
+/******* Departments *******/
+
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	margin: 18px 0;
+	width: 478px;
+}
+
+tr, td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+td {
+	padding: 5px 0;
 }
