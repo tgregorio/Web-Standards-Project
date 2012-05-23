@@ -199,7 +199,7 @@ article {
 article h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
-	margin-top: 20px;
+	margin-top: 18px;
 	padding: 0px 0px 15px 0px;
 	text-align: center;
 	text-shadow: -2px 0px 25px #fffdf4;
@@ -405,4 +405,32 @@ footer {
     height: 30px;
     text-decoration: none;
     width: 30px;
+}
+
+/******* Weekly Events ********/
+#weeks_events {
+	padding-top: 14px;
+}
+
+#weeks_events li {
+	background: green;
+	border: 1px solid #0C1A2C;
+	color: #E2F8F7;
+	font: normal 0.938em/1 arial, verdana, sans-serif; /**** 15px ****/
+	height: 50px;
+	margin-bottom: 10px;
+	padding: 30px 0 0 25px;
+}
+
+#weeks_events li strong {
+	font: bold 1.125em/1 verdana, arial, sans-serif; /**** 18px ****/
+}
+
+#weeks_events .stripe1 {
+	background: #04615D;
+}
+
+#weeks_events .stripe2 {
+	background: #06918C;
+	color: #F5FDFC;
 }
