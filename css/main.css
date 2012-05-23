@@ -104,9 +104,14 @@ h2 {
 }
 
 h3 {
-	color: green;
-	font: normal 1em/1 georgia, verdana, sans-serif; /*** 16px ***/
 	margin-top: 18px;
+}
+
+h4 {
+	color: #DBF9F4;
+	font: bold 1.25em/1 georgia, verdana, sans-serif; /*** 16px ***/
+	margin-top: 18px;
+	text-decoration: underline;
 }
 
 /******* Header images *******/
@@ -446,11 +451,31 @@ table {
 	width: 478px;
 }
 
+th {
+	background: #507276;
+	font: bold 1.125em/1 verdana, arial, sans-serif;
+	padding: 8px 0 10px 0;
+}
+
 tr, td {
 	border: 1px solid #000;
 	text-align: center;
 }
 
 td {
-	padding: 5px 0;
+	padding: 8px 0;
+}
+
+td a {
+	color: #E2B97C;
+}
+
+.evenrow {
+	background: #04615D;
+	color: #C8CCCB;
+}
+
+.oddrow {
+	background: #06918C;
+	color: #F5FDFC;
 }
