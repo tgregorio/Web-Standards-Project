@@ -90,15 +90,17 @@ body {
 /******* Font Treatments *******/
 
 h1 a {
+	background: orange;
 	background: url(../images/header/logo.png) no-repeat 0 12px;
 	color: #E8CC71;
 	font: normal bold 1.25em/1 didot, 'colona mt', menlo, serif; /*** 23px ***/
 	float: left;
 	height: 70px;
-	margin: 15px 35px 0 55px;
+	margin: 15px 31px 0 55px;
 	padding: 50px 0 0 125px;
 	text-decoration: none;
 	text-shadow: 3px 0 2px #000;
+	width: 300px;
 }
 
 #wrapper h1 a:link {
