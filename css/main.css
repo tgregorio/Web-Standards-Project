@@ -298,68 +298,6 @@ aside section p {
 	text-align: center;
 }
 
-/********** CONTACT FORM ************/
-
-article form legend {
-	color: white;
-	font-style: italic;
-	margin-bottom: 15px;
-	padding-top: 15px;
-}
-
-article form p {
-	margin: 0px 0 6px 0;
-}
-
-article form label {
-	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 24px ****/
-	margin-right: 8px;
-}
-
-article form em {
-	font: normal 0.625em/1 verdana, arial, sans-serif; /**** 10px ****/
-}
-/********** MAP *************/
-
-iframe {
-	margin: -5px 0 0 27.5px;
-}
-
-aside p {
-	font: normal 0.75em/1 verdana, arial, sans-serif;
-	margin: 12px 14px 14px 14px;
-	line-height: 1.2;
-}
-
-/********** FOOTER ***********/
-
-footer {
-	background: #FFA500;
-	border-top: 3px solid #b3732d;
-	clear: both;
-	height: 60px;
-	margin: 0 auto;
-}
-
-#copyright {
-	float: left;
-	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
-	height: 60px;
-	margin: 0px 57px 0px 85px;
-	padding-top: 22px;
-	text-align: center;
-}
-
-#address, #fax {
-	float: left;
-	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
-	height: 60px;
-	line-height: 1.2;
-	margin-right: 57px;
-	padding-top: 12px;
-	text-align: center;
-}
-
 /********** CALENDAR ***********/
 
 #cal {
@@ -443,16 +381,16 @@ footer {
 	color: #F5FDFC;
 }
 
-/******* Departments *******/
+/******* Same-page navigation (Departments & Resources) *******/
 
-#links_prek-2 {
+#links_prek-2, #parent_links_1 {
 	float: left;
 	margin: 15px 17px 3px 0;
 	text-align: center;
 	width: 229px;
 }
 
-#links_prek-2 li {
+#links_prek-2 li, #parent_links_1 li {
 	background: #FA8E3C;
 	border: 1px solid #FFF;
 	display: block;
@@ -460,14 +398,14 @@ footer {
 	margin-bottom: 15px;
 }
 
-#links_3-5 {
+#links_3-5, #parent_links_2 {
 	float: left;
 	margin: 15px 0 3px 0;
 	text-align: center;
 	width: 229px;
 }
 
-#links_3-5 li {
+#links_3-5 li, #parent_links_2 li {
 	background: #F2822C;
 	border: 1px solid #FFF;
 	display: block;
@@ -475,7 +413,7 @@ footer {
 	margin-bottom: 15px;
 }
 
-#links_prek-2 li a, #links_3-5 li a {
+#links_prek-2 li a, #links_3-5 li a, #parent_links_1 li a, #parent_links_2 li a {
 	color: white;
 	display: block;
 	height: 30px;
@@ -483,9 +421,11 @@ footer {
 	text-decoration: none;
 }
 
-#links_prek-2 li a:hover, #links_3-5 li a:hover {
+#links_prek-2 li a:hover, #links_3-5 li a:hover, #parent_links_1 li a:hover, #parent_links_2 li a:hover {
 	background: #4F5A75;
 }
+
+/******* Departments *******/
 
 table {
 	border: 1px solid #000;
@@ -521,4 +461,66 @@ td a {
 .oddrow {
 	background: #06918C;
 	color: #F5FDFC;
+}
+
+/********** CONTACT FORM ************/
+
+article form legend {
+	color: white;
+	font-style: italic;
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+
+article form p {
+	margin: 0px 0 6px 0;
+}
+
+article form label {
+	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 24px ****/
+	margin-right: 8px;
+}
+
+article form em {
+	font: normal 0.625em/1 verdana, arial, sans-serif; /**** 10px ****/
+}
+/********** MAP *************/
+
+iframe {
+	margin: -5px 0 0 27.5px;
+}
+
+aside p {
+	font: normal 0.75em/1 verdana, arial, sans-serif;
+	margin: 12px 14px 14px 14px;
+	line-height: 1.2;
+}
+
+/********** FOOTER ***********/
+
+footer {
+	background: #FFA500;
+	border-top: 3px solid #b3732d;
+	clear: both;
+	height: 60px;
+	margin: 0 auto;
+}
+
+#copyright {
+	float: left;
+	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
+	height: 60px;
+	margin: 0px 57px 0px 85px;
+	padding-top: 22px;
+	text-align: center;
+}
+
+#address, #fax {
+	float: left;
+	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
+	height: 60px;
+	line-height: 1.2;
+	margin-right: 57px;
+	padding-top: 12px;
+	text-align: center;
 }
