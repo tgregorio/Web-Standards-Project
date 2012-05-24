@@ -163,7 +163,7 @@ nav ul li {
 	width: 189.6px;
 }
 
-/********* Welcome Graphic ********/
+/********* WELCOME GRAPHIC ********/
 
 #welcome {
 	background: #1A284C; /**** fallback ****/
@@ -403,6 +403,7 @@ aside section p {
 	display: block;
 	font: normal 1.125em/1 verdana, arial, sans-serif;
 	margin-bottom: 15px;
+	width: 229px;
 }
 
 #links_3-5, #parent_links_2 {
@@ -418,6 +419,7 @@ aside section p {
 	display: block;
 	font: normal 1.125em/1 verdana, arial, sans-serif;
 	margin-bottom: 15px;
+	width: 229px;
 }
 
 #links_prek-2 li a, #links_3-5 li a, #parent_links_1 li a, #parent_links_2 li a {
