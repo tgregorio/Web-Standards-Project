@@ -242,9 +242,9 @@ article .signature {
 aside {
 	background: #507276;
 	border: 1px solid #000;
-	float: right;
+	float: left;
 	height: 380px;
-	margin: 15px 55px 15px 0;
+	margin: 15px 55px 15px 12px;
 	width: 310px;
 }
 
