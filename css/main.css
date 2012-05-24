@@ -363,6 +363,7 @@ aside section p {
 /******* Weekly Events ********/
 #weeks_events {
 	padding-top: 14px;
+	width: 479px;
 }
 
 #weeks_events li {
