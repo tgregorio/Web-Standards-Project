@@ -100,7 +100,7 @@ h1 {
 	text-shadow: 3px 0 2px #000;
 }
 
-h1 a {
+h1 a, h1 a:visited, h1 a:hover {
 	text-decoration: none;
 }
 
@@ -121,8 +121,6 @@ h4 {
 }
 
 /******* Header images *******/
-
-
 
 header img {
 	border: 1px solid #000;
