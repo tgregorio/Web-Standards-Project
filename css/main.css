@@ -80,7 +80,8 @@ body {
 }
 
 #wrapper {
-	background: rgba(36,50,68,0.94);/*#EF7C00;*/
+	background: #243244; /***** fallback *****/
+	background: rgba(36,50,68,0.94);
 	border: 3px solid #b3732d;
 	margin: 15px auto;
 	width: 960px;
@@ -89,14 +90,14 @@ body {
 /******* Font Treatments *******/
 
 h1 {
-	background: url(../images/header/logo.png) no-repeat 0px 12px;
+	background: url(../images/header/logo.png) no-repeat 0 12px;
 	color: #E8CC71;
 	font: normal bold 1.25em/1 didot, 'colona mt', menlo, serif; /*** 23px ***/
 	float: left;
 	height: 70px;
 	margin: 15px 35px 0 55px;
 	padding: 50px 0 0 125px;
-	text-shadow: 3px 0px 2px #000;
+	text-shadow: 3px 0 2px #000;
 }
 
 h1 a {
@@ -126,7 +127,7 @@ h4 {
 header img {
 	border: 1px solid #000;
 	float: left;
-	margin: 15px 15px 0px 0px;
+	margin: 15px 15px 0 0;
 }
 
 /*********** Main Nav ************/
@@ -138,7 +139,7 @@ nav ul {
 	clear: both;
 	float: left;
 	height: 50px;
-	margin: 15px 0px 15px 0px;
+	margin: 15px 0 15px 0;
 	width: 958px;
 }
 
@@ -176,8 +177,8 @@ nav ul li {
 	clear: both;
 	float: left;
 	height: 100px;
-	margin: 0px 0px 0px 55px;
-	padding: 15px 0px 0px 30px;
+	margin: 0 0 0 55px;
+	padding: 15px 0 0 30px;
 	width: 820px;
 }
 
@@ -203,8 +204,8 @@ article {
 	border: 1px solid #000;
 	clear:both;
 	float: left;
-	margin: 15px 0px 15px 55px;
-	padding: 0px 15px 15px 30px;
+	margin: 15px 0 15px 55px;
+	padding: 0 15px 15px 30px;
 	width: 479px
 }
 
@@ -212,9 +213,9 @@ article h2 {
 	border-bottom: 1px solid #000;
 	color: #E8CC71;
 	margin-top: 18px;
-	padding: 0px 0px 15px 0px;
+	padding: 0 0 15px 0;
 	text-align: center;
-	text-shadow: -2px 0px 25px #fffdf4;
+	text-shadow: -2px 0 25px #fffdf4;
 	width: 479px;
 }
 
@@ -243,7 +244,7 @@ aside {
 	border: 1px solid #000;
 	float: right;
 	height: 380px;
-	margin: 15px 55px 15px 0px;
+	margin: 15px 55px 15px 0;
 	width: 310px;
 }
 
@@ -252,9 +253,9 @@ aside h2 {
 	color: #E8CC71; 
 	font: normal bold 1.5em/1 didot, menlo, 'colona mt', serif; /**** 24px ****/
 	margin-left: 27.5px;
-	padding: 17px 0px 14px 0px;
+	padding: 17px 0 14px 0;
 	text-align: center;
-	text-shadow: -2px 0px 20px #fffdf4;
+	text-shadow: -2px 0 20px #fffdf4;
 	width: 240px;
 }
 
@@ -267,7 +268,7 @@ aside ul li {
 	border: 1px solid #000;
 	font: normal 1.125em/1 verdana, arial, sans-serif; /**** 18px ****/
 	height: 31px;
-	margin: 0px 0px 15px 26px;
+	margin: 0 0 15px 26px;
 	/*padding: 5px 0px 8px 0px;*/
 	text-align: center;
 	width: 240px;
@@ -287,7 +288,7 @@ aside ul li a:hover {
 
 aside section {
 	border-bottom: 1px solid #000;
-	margin: 0px 0px 0px 27.5px;
+	margin: 0 0 0 27.5px;
 	padding-bottom: 15px;
 	width: 240px;
 }
@@ -477,7 +478,7 @@ article form legend {
 }
 
 article form p {
-	margin: 0px 0 6px 0;
+	margin: 0 0 6px 0;
 }
 
 article form label {
@@ -514,7 +515,7 @@ footer {
 	float: left;
 	font: normal 0.875em/1 verdana, arial, sans-serif; /*** 14px ***/
 	height: 60px;
-	margin: 0px 57px 0px 85px;
+	margin: 0 57px 0 85px;
 	padding-top: 22px;
 	text-align: center;
 }
