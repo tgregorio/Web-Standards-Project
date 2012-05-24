@@ -89,7 +89,7 @@ body {
 
 /******* Font Treatments *******/
 
-h1 {
+h1 a {
 	background: url(../images/header/logo.png) no-repeat 0 12px;
 	color: #E8CC71;
 	font: normal bold 1.25em/1 didot, 'colona mt', menlo, serif; /*** 23px ***/
@@ -97,10 +97,11 @@ h1 {
 	height: 70px;
 	margin: 15px 35px 0 55px;
 	padding: 50px 0 0 125px;
+	text-decoration: none;
 	text-shadow: 3px 0 2px #000;
 }
 
-h1 a, h1 a:visited, h1 a:hover {
+#wrapper h1 a:link {
 	text-decoration: none;
 }
 
