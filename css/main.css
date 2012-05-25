@@ -239,7 +239,7 @@ article .signature {
 	text-align: right;
 }
 
-/******** Right Column ********/
+/******** QUICK LINKS (right column) ********/
 
 aside {
 	background: #507276;
@@ -360,7 +360,8 @@ aside section p {
     width: 30px;
 }
 
-/******* Weekly Events ********/
+/******* WEEKLY EVENTS ********/
+
 #weeks_events {
 	padding-top: 14px;
 	width: 479px;
@@ -389,7 +390,7 @@ aside section p {
 	color: #F5FDFC;
 }
 
-/******* Same-page navigation (Departments & Resources) *******/
+/******* SAME-PAGE NAVIGATION (Departments & Resources) *******/
 
 #links_prek-2, #parent_links_1 {
 	float: left;
@@ -435,7 +436,7 @@ aside section p {
 	background: #4F5A75;
 }
 
-/******* Departments *******/
+/******* DEPARTMENTS *******/
 
 table {
 	border: 1px solid #000;
@@ -494,6 +495,22 @@ article form label {
 article form em {
 	font: normal 0.625em/1 verdana, arial, sans-serif; /**** 10px ****/
 }
+
+/********** UNIFORMS **********/
+
+#vendors {
+	margin: 15px 0 3px 30px;
+}
+
+#vendors li {
+	font: normal 0.875em/1 verdana, arial, sans-serif; /**** 14px ****/
+	margin-bottom: 10px;
+}
+
+#vendors li a {
+	color: #e8cc71;
+}
+
 /********** MAP *************/
 
 iframe {
